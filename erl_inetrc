@@ -1,0 +1,13 @@
+%% -- ERLANG INET CONFIGURATION FILE --
+%% read the hosts file
+{file, hosts, "/etc/hosts-rabbitmq"}.
+%% do not monitor the hosts file
+%{hosts_file, ""}.
+%% read and monitor nameserver config from here
+{resolv_conf, "/etc/resolv.conf"}.
+%% enable EDNS
+{edns,0}.
+%% disable caching
+{cache_size, 0}.
+%% specify lookup method
+{lookup, [file, dns]}.
