@@ -3,8 +3,6 @@
 {file, hosts, "/etc/hosts-rabbitmq"}.
 %% do not monitor the hosts file
 %{hosts_file, ""}.
-%% read and monitor nameserver config from here
-{resolv_conf, "/etc/resolv.conf"}.
 %% enable EDNS
 {edns,0}.
 %% specify lookup method
