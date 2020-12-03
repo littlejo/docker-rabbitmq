@@ -1,8 +1,6 @@
 %% -- ERLANG INET CONFIGURATION FILE --
 %% read the hosts file
 {file, hosts, "/etc/hosts-rabbitmq"}.
-%% do not monitor the hosts file
-%{hosts_file, ""}.
 %% enable EDNS
 {edns,0}.
 %% specify lookup method
