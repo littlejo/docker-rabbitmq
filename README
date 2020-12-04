@@ -1,0 +1,3 @@
+Build rabbitmq docker image to custom node name (usefull for ecs for example)
+
+Dockerhub: littlejo/rabbitmq:3
